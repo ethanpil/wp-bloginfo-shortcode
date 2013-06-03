@@ -13,6 +13,8 @@ Add a [blog] shortcode to the Wordpress editor to include data from bloginfo()
 
 This plugin adds a shortcode [blog] to pull info from like the template tag bloginfo(). Its very simple to use and supports the same values as bloginfo().
 
+Why a shortcode and not the function in PHP? Sometimes I need to implement slight variations of the same site. This allows me to have the values propagate into the post content as needed without remembering every place that needs changes.
+
 Its used like this:
 
     [blog info="name"] 
